@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --darkblue: #2A324B;
+    --mediumblue: #58699D;
+    --lightblue: #e1e5ee;
+
+    --font: "Montserrat", "Sans-serif";
+    --rootsize: 20px;
+    --maxwith: 1500px;
+}
+
+/* Background and metaproperties*/
+body {
+    background-color: var(--lightblue);
+    font-family: var(--font);
+    font-size: var(--rootsize);
+    
+}
+
+
+/* Text properties*/
+p { font-size: 1rem; margin: 1rem; color: var(--black)}
+h2 { font-size: 2.5rem; font-weight: 700; margin: 1rem; color: var(--darkblue)}
+h3 { font-size: 1.5rem; font-weight: 600; color: var(--darkblue)}
+a { color: var(--)}
+nav a { font-size: 1.5rem; font-weight: 700;}
+
+/* Main structure */
+#container {
+    width: 100%;
+    max-width: var(--maxwith);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+/* Nav */
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: none;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: flex;
+    flex-grow: 1;
+}
+
+nav a {
+    background-color: var(--darkblue);
+    text-align: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    padding: 2rem 2rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--darkblue);
+    background-color: var(--white);
+}
+
+/* main */
+main {
+    background-color: var(--white);
+    padding: 4rem;
+}
