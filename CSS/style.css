@@ -25,7 +25,7 @@ body {
 p { font-size: 1rem; margin: 1rem; color: var(--black)}
 h2 { font-size: 2.5rem; font-weight: 700; margin: 1rem; color: var(--darkblue)}
 h3 { font-size: 1.5rem; font-weight: 600; color: var(--darkblue)}
-a { color: var(--)}
+a { color: var(--mediumblue)}
 nav a { font-size: 1.5rem; font-weight: 700;}
 
 /* Main structure */
