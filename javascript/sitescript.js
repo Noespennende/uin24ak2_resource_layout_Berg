@@ -2,9 +2,9 @@ updateHTML(0);
 
 function updateHTML (index) {
 
-    let mainHTML = `<h2>${resources[index].category}</h2> <p>${resources[index].text}</p> <ul>`
+    let mainHTML = `<article><h2>${resources[index].category}</h2> <p>${resources[index].text}</p> <ul>`
     resources[index].sources.map(source => mainHTML += `<li><a href="${source.url}">${source.title}</a></li>`)
-    mainHTML += `</ul>`
+    mainHTML += `</ul> </article>`
     const main = document.getElementsByTagName("main");
     main[0].innerHTML = mainHTML
 
